@@ -1,0 +1,28 @@
+/* Teko */
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+/* font-family: 'Teko', sans-serif; */
+
+/* Ubuntu Regular 400*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+/* Baloo Tamma 2 */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+/* font-family: 'Baloo Tamma 2', cursive; */
+
+:root{
+	--theme-yellow: #ffb142;
+	--theme-green: #218c78;
+	--theme-orange: #ff793f;
+	--theme-white: #f7f1e3;
+	--theme-gray: #2d3436;
+	--theme-red: #ff5252;
+	--theme-blue: #3498db;
+	--theme-light-yellow: #F8EFBA;
+	--theme-light-white: #f1f2f6;
+
+
+	--theme-font-def: 'Baloo Tamma 2', cursive;
+	--theme-font-st1: 'Ubuntu', sans-serif;
+	--theme-font-st2: 'Teko', sans-serif;
+};

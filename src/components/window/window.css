@@ -1,0 +1,42 @@
+
+
+
+
+.window-area-container{
+	padding: 15px;
+	background: var(--theme-light-white);
+}
+
+
+.window-area{
+	padding: 15px 5%;
+	text-align: center;
+}
+
+
+.area-title{
+	font-family: var(--theme-font-st1);
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: var(--theme-blue);
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	transition: .5s;
+	display: inline-block;
+}
+
+
+.area-title:hover{
+	color: var(--theme-gray);
+	text-shadow: 1px 1px var(--theme-yellow);
+}
+
+.area-title-hr{
+	width: 40%;
+	border: solid 1px var(--theme-red);
+	border-radius: 2px;
+}

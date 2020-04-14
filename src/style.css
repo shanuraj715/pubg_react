@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--theme-font-def);
+  min-width: 800px !important;
+}
+
+::-webkit-scrollbar { 
+	width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme-yellow); 
+  border-radius: 10px;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom,
+  	var(--theme-yellow),
+  	var(--theme-white),
+  	var(--theme-yellow),
+  	var(--theme-white),
+  	var(--theme-yellow),
+  	var(--theme-white),
+  	var(--theme-yellow));
+  border-radius: 10px;
+
+}
